@@ -1,0 +1,24 @@
+QA Engineer Assignment for the Property Visit form
+
+#The project runs in a Node enviroment, with Selenium and Javascript
+Files included:
+0) installation.txt
+1) testPlan.xls   ---->  Including testing approach & test cases
+2) testQA.js      ---->  Including the code implementation of the test plan 
+3) data.json      ---->  JSON file, including all current testCases
+4) package.json   ---->  Icluding project dependencies
+5) estReport.json ---->  JSON file, inicluding test report, testRES key
+
+
+ #Guideline, after cloning the git repo:
+ 1) CD in the folder of the cloned repo and run in terminal command, npm install
+ 2) Ensure that executables of WebDriver and chromedriver are added to your system PATH
+ 3) Run the QA script "node testQA" or "npm test" 
+ 4) Navigate to testReport.json for the test results
+
+
+#Comments
+1) chromedriver 90.0.1 has been used in this package, browser compatibility is reduced to this specific version. No cross platform testing is implemented in this test
+best to test in the latest chrome browser version
+
+ Happy testing!

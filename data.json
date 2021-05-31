@@ -1,0 +1,90 @@
+[
+  {
+    "testNo": 1,
+    "testInfo": " All inputs with empty strings",
+    "firstName": "",
+    "lastName": "",
+    "phoneNumber": "",
+    "email": "",
+    "message": "",
+    "expectedRes": "Error",
+    "testRes": "null"
+  },
+  {
+    "testNo": 2,
+    "testInfo": " All required inputs",
+    "firstName": "aassddffgg",
+    "lastName": "aassddffgg",
+    "phoneNumber": "0011223344",
+    "email": "",
+    "message": "",
+    "expectedRes": "Success",
+    "testRes": "null"
+  },
+  {
+    "testNo": 3,
+    "testInfo": "  Required with space on firstName",
+    "firstName": "",
+    "lastName": "aassddffgg",
+    "phoneNumber": "0011223344",
+    "email": "",
+    "message": "",
+    "expectedRes": "Error",
+    "testRes": "null"
+  },
+  {
+    "testNo": 4,
+    "testInfo": " Required with space on lastName",
+    "firstName": "aassddffgg",
+    "lastName": "",
+    "phoneNumber": "0011223344",
+    "email": "",
+    "message": "",
+    "expectedRes": "Error",
+    "testRes": "null"
+  },
+  {
+    "testNo": 5,
+    "testInfo": " Required with space on phoneNumber",
+    "firstName": "aassddffgg",
+    "lastName": "aassddffgg",
+    "phoneNumber": "",
+    "email": "",
+    "message": "",
+    "expectedRes": "Error",
+    "testRes": "null"
+  },
+  {
+    "testNo": 6,
+    "testInfo": " All inputs(optional & required)",
+    "firstName": "aassddffgg",
+    "lastName": "aassddffgg",
+    "phoneNumber": "0011223344",
+    "email": "abc@abc.com",
+    "message": "Lorem Ipsum",
+    "expectedRes": "Success",
+    "testRes": "null"
+  },
+  {
+    "testNo": 7,
+    "testInfo": " All optional inputs",
+    "firstName": "",
+    "lastName": "",
+    "phoneNumber": "",
+    "email": "abc@abc.com",
+    "message": "Lorem Ipsum",
+    "expectedRes": "Error",
+    "testRes": "null"
+  },
+  {
+    "testNo": 8,
+    "testInfo": " All inputs Space",
+    "firstName": " ",
+    "lastName": " ",
+    "phoneNumber": " ",
+    "email": " ",
+    "message": " ",
+    "expectedRes": "Fail",
+    "testRes": "null"
+  }
+]
